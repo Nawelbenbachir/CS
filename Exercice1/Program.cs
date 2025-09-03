@@ -12,3 +12,6 @@ double prix = 26.54;
 int quantite = 6;
 Console.Write("Total=");
 Console.WriteLine(prix * quantite);
+
+
+
