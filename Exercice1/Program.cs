@@ -10,4 +10,5 @@ Console.WriteLine(nom);
 //Déclarer une variable prix et une variable quantité entière. Calculer et afficher le total (prix * quantité)
 double prix = 26.54;
 int quantite = 6;
-Console.WriteLine("Total=",prix * quantite);
+Console.Write("Total=");
+Console.WriteLine(prix * quantite);
