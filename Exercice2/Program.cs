@@ -50,19 +50,19 @@ int agePaul = 28;
 
 
 if (agePierre > agePaul)
-    Console.Write("Pierre est le plus âgé (boucle if)");
+    Console.Write("Pierre est le plus âgé (if)");
 else
 {
-    Console.Write("Paul est le plus âgé (boucle if)");
+    Console.Write("Paul est le plus âgé (if)");
 }
-bool comparaison=agePaul > agePierre; 
 
-switch (comparaison)
+
+switch (agePaul > agePierre)
 {
     case false:
-        Console.Write("Pierre est le plus âgé (boucle switch)");
+        Console.Write("Pierre est le plus âgé (switch)");
         break;
     default:
-        Console.Write("Paul est le plus âgé (boucle switch)");
+        Console.Write("Paul est le plus âgé (switch)");
         break;
 }
