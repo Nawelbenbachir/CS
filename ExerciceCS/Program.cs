@@ -1,4 +1,4 @@
-﻿
+﻿//Exercice 1
 Console.WriteLine("Exercice 1");
 
 int age = 48;
@@ -6,6 +6,7 @@ string prenom = "Nawel";
 double taille = 1.65;
 Console.WriteLine("Age:" + age + ",Prénom:" + prenom + ",Taille:" + taille);
 
+//Exercice 2
 Console.WriteLine("Exercice 2");
 
 Console.WriteLine("Saisir un nombre:");
@@ -13,12 +14,15 @@ string snombre = Console.ReadLine();
 int nombre = Convert.ToInt32(snombre);
 Console.WriteLine("Le nombre multiplié par 2 est:" + nombre * 2);
 
+//Exercice 3
 Console.WriteLine("Exercice 3");
 int a = 24;
 int b = 5;
-Console.WriteLine("Somme:" + (a + b) + " Différence:" + (a - b) + " Produit:" + (a * b) + " Quotient:" + (a/b));
+Console.WriteLine("Somme:" + (a + b) + " Différence:" + (a - b) + " Produit:" + (a * b) + " Quotient:" + (a / b));
 
+//Exercice 4
 Console.WriteLine("Exercice 4");
+
 Console.WriteLine("Saisir un nombre:");
 
 if ( Convert.ToInt32(Console.ReadLine()) % 2 == 0)
@@ -28,6 +32,7 @@ else
     Console.WriteLine("Le nombre est impair");
 }
 
+//Exercice 5
 Console.WriteLine("Exercice 5");
 
 Console.WriteLine("Quel est ton âge ?");
@@ -38,6 +43,7 @@ else
     Console.WriteLine("Tu es mineur");
 }
 
+//Exercice 6
 Console.WriteLine("Exercice 6");
 
 Console.WriteLine("Entrer le premier nombre");
@@ -51,6 +57,7 @@ else if (nb1<nb2)
 else 
     Console.WriteLine(nb1 + " = " + nb2);
 
+//Exercice 7
 Console.WriteLine("Exercice 7");
 
 Console.WriteLine("Entrez un chiffre entre 1 et 7:");
@@ -82,6 +89,7 @@ switch (Convert.ToInt32(Console.ReadLine()))
         break;
 }
 
+//Exercice 8
 Console.WriteLine("Exercice 8");
 
 Console.WriteLine("Entrez le premier nombre: ");
@@ -115,6 +123,7 @@ switch (op)
     
 }
 
+//Exercice 9
 Console.WriteLine("Exercice 9");
 
 Console.WriteLine("Entrer la note");
@@ -137,6 +146,7 @@ switch (note)
     
 }
 
+//Exercice 10
 Console.WriteLine("Exercice 10");
 
 Console.WriteLine("1.Dire Bonjour");
