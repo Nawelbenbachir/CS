@@ -1,31 +1,31 @@
-﻿// Exercice 1
+﻿// // Exercice 1
 
-for (int i = 0; i <= 20; i = i + 2)
-{
-    Console.WriteLine(i);
-}
+// for (int i = 0; i <= 20; i = i + 2)
+// {
+//     Console.WriteLine(i);
+// }
 
-//Exercice 2
+// //Exercice 2
 
-Console.WriteLine("Entrer un nombre entier");
-int nombre = Convert.ToInt32(Console.ReadLine());
-for (int i = 1; i <= 10; i++)
-{
-    Console.WriteLine(i + " x " + nombre + " = " + i * nombre);
-}
+// Console.WriteLine("Entrer un nombre entier");
+// int nombre = Convert.ToInt32(Console.ReadLine());
+// for (int i = 1; i <= 10; i++)
+// {
+//     Console.WriteLine(i + " x " + nombre + " = " + i * nombre);
+// }
 
-//Exercice 3
-int somme = 0;
-int nb = 1;
+// //Exercice 3
+// int somme = 0;
+// int nb = 1;
 
-while (nb!= 0)
-{
-    Console.WriteLine("Entrer un nombre entier");
-    nb = Convert.ToInt32(Console.ReadLine());
-    somme = somme + nb ;
+// while (nb!= 0)
+// {
+//     Console.WriteLine("Entrer un nombre entier");
+//     nb = Convert.ToInt32(Console.ReadLine());
+//     somme = somme + nb ;
     
-}
-Console.WriteLine(somme);
+// }
+// Console.WriteLine(somme);
 
 //Exercice 4
 
@@ -44,7 +44,7 @@ do
     {
         Console.WriteLine("Trop petit");
     }
-} while (test != entier);
+} while (test!= entier);
 Console.WriteLine("Vous avez trouvé");
 
 //Exercice 5
