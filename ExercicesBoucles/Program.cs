@@ -1,50 +1,50 @@
-﻿// // Exercice 1
+﻿// Exercice 1
 
-// for (int i = 0; i <= 20; i = i + 2)
-// {
-//     Console.WriteLine(i);
-// }
+for (int i = 0; i <= 20; i = i + 2)
+{
+    Console.WriteLine(i);
+}
 
-// //Exercice 2
+//Exercice 2
 
-// Console.WriteLine("Entrer un nombre entier");
-// int nombre = Convert.ToInt32(Console.ReadLine());
-// for (int i = 1; i <= 10; i++)
-// {
-//     Console.WriteLine(i + " x " + nombre + " = " + i * nombre);
-// }
+Console.WriteLine("Entrer un nombre entier");
+int nombre = Convert.ToInt32(Console.ReadLine());
+for (int i = 1; i <= 10; i++)
+{
+    Console.WriteLine(i + " x " + nombre + " = " + i * nombre);
+}
 
-// //Exercice 3
-// int somme = 0;
-// int nb = 1;
+//Exercice 3
+int somme = 0;
+int nb = 1;
 
-// while (nb!= 0)
-// {
-//     Console.WriteLine("Entrer un nombre entier");
-//     nb = Convert.ToInt32(Console.ReadLine());
-//     somme = somme + nb ;
+while (nb!= 0)
+{
+    Console.WriteLine("Entrer un nombre entier");
+    nb = Convert.ToInt32(Console.ReadLine());
+    somme = somme + nb ;
     
-// }
-// Console.WriteLine(somme);
+}
+Console.WriteLine(somme);
 
 //Exercice 4
 
 Random aleatoire = new Random();
-int entier = aleatoire.Next(1, 100);
-int test;
+int nbATrouver = aleatoire.Next(1, 100);
+int nbATester;
 do
 {
     Console.WriteLine("Entrez un nombre entre 1 et 100");
-    test = Convert.ToInt32(Console.ReadLine());
-    if (test > entier)
+    nbATester = Convert.ToInt32(Console.ReadLine());
+    if (nbATester > nbATrouver)
     {
         Console.WriteLine("Trop grand");
     }
-    else if (test< entier)
+    else if (nbATester< nbATrouver)
     {
         Console.WriteLine("Trop petit");
     }
-} while (test!= entier);
+} while (nbATester!= nbATrouver);
 Console.WriteLine("Vous avez trouvé");
 
 //Exercice 5
@@ -58,9 +58,9 @@ foreach (string i in prenoms)
 //Exercice 6
 
 int[] nombres = { 3, 7, 2, 9, 4 };
-int somme = 0;
+int isomme = 0;
 foreach (int i in nombres)
 {
-    somme = somme + i;
+    isomme = isomme + i;
 }
-Console.WriteLine(somme);
+Console.WriteLine(isomme);
