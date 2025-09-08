@@ -28,6 +28,7 @@ void AfficheBonjour()
     Console.WriteLine("Bonjour");
 }
 
+AfficheBonjour();
 //Ecrire une fonction qui retourne le plus grand de deux entiers
 
 int PlusGrandNombre(int nombre1, int nombre2)
