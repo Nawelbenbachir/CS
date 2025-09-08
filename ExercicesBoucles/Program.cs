@@ -59,7 +59,7 @@ foreach (string i in prenoms)
 
 int[] nombres = { 3, 7, 2, 9, 4 };
 int isomme = 0;
-foreach (int i in nombres)
+foreach (int elements in nombres)
 {
     isomme = isomme + i;
 }

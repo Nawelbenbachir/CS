@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExercicesBoucles")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5ff276eb6b95eee61d07334edf4a7a7e19e4ad9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a245b714caf7497d5db50e31799f9df08ed9ad1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExercicesBoucles")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExercicesBoucles")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
