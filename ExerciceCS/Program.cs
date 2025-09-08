@@ -1,101 +1,101 @@
-﻿//Exercice 1
-Console.WriteLine("Exercice 1");
+﻿// //Exercice 1
+// Console.WriteLine("Exercice 1");
 
-int age = 48;
-string prenom = "Nawel";
-double taille = 1.65;
-Console.WriteLine("Age:" + age + ",Prénom:" + prenom + ",Taille:" + taille);
+// int age = 48;
+// string prenom = "Nawel";
+// double taille = 1.65;
+// Console.WriteLine("Age : " + age + ", Prénom : " + prenom + ", Taille : " + taille);
 
-//Exercice 2
-Console.WriteLine("Exercice 2");
+// //Exercice 2
+// Console.WriteLine("Exercice 2");
 
-Console.WriteLine("Saisir un nombre:");
-string snombre = Console.ReadLine();
-int nombre = Convert.ToInt32(snombre);
-Console.WriteLine("Le nombre multiplié par 2 est:" + nombre * 2);
+// Console.WriteLine("Saisir un nombre : ");
+// string snombre = Console.ReadLine();
+// int nombre = Convert.ToInt32(snombre);
+// Console.WriteLine("Le nombre multiplié par 2 est : " + (nombre * 2));
 
-//Exercice 3
-Console.WriteLine("Exercice 3");
-int a = 24;
-int b = 5;
-Console.WriteLine("Somme:" + (a + b) + " Différence:" + (a - b) + " Produit:" + (a * b) + " Quotient:" + (a / b));
+// //Exercice 3
+// Console.WriteLine("Exercice 3");
+// double a = 24;
+// double b = 5;
+// Console.WriteLine("Somme : " + (a + b) + " Différence : " + (a - b) + " Produit : " + (a * b) + " Quotient : " + (a / b));
 
-//Exercice 4
-Console.WriteLine("Exercice 4");
+// //Exercice 4
+// Console.WriteLine("Exercice 4");
 
-Console.WriteLine("Saisir un nombre:");
+// Console.WriteLine("Saisir un nombre:");
 
-if ( Convert.ToInt32(Console.ReadLine()) % 2 == 0)
-    Console.WriteLine("Le nombre est pair");
-else
-{
-    Console.WriteLine("Le nombre est impair");
-}
+// if ( Convert.ToInt32(Console.ReadLine()) % 2 == 0)
+//     Console.WriteLine("Le nombre est pair");
+// else
+// {
+//     Console.WriteLine("Le nombre est impair");
+// }
 
-//Exercice 5
-Console.WriteLine("Exercice 5");
+// //Exercice 5
+// Console.WriteLine("Exercice 5");
 
-Console.WriteLine("Quel est ton âge ?");
-if (Convert.ToInt32(Console.ReadLine()) >= 18)
-    Console.WriteLine("Tu est majeur");
-else
-{
-    Console.WriteLine("Tu es mineur");
-}
+// Console.WriteLine("Quel est ton âge ?");
+// if (Convert.ToInt32(Console.ReadLine()) >= 18)
+//     Console.WriteLine("Tu es majeur");
+// else
+// {
+//     Console.WriteLine("Tu es mineur");
+// }
 
-//Exercice 6
-Console.WriteLine("Exercice 6");
+// //Exercice 6
+// Console.WriteLine("Exercice 6");
 
-Console.WriteLine("Entrer le premier nombre");
-int nb1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Entrer le deuxième nombre");
-int nb2 = Convert.ToInt32(Console.ReadLine());
-if (nb1 > nb2)
-    Console.WriteLine(nb1 + " est le plus grand");
-else if (nb1<nb2)
-    Console.WriteLine(nb2 + " est le plus grand");
-else 
-    Console.WriteLine(nb1 + " = " + nb2);
+// Console.WriteLine("Entrer le premier nombre");
+// int nb1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Entrer le deuxième nombre");
+// int nb2 = Convert.ToInt32(Console.ReadLine());
+// if (nb1 > nb2)
+//     Console.WriteLine(nb1 + " est le plus grand");
+// else if (nb1<nb2)
+//     Console.WriteLine(nb2 + " est le plus grand");
+// else 
+//     Console.WriteLine(nb1 + " = " + nb2);
 
-//Exercice 7
-Console.WriteLine("Exercice 7");
+// //Exercice 7
+// Console.WriteLine("Exercice 7");
 
-Console.WriteLine("Entrez un chiffre entre 1 et 7:");
-switch (Convert.ToInt32(Console.ReadLine()))
-{
-    case 1:
-        Console.WriteLine("Lundi");
-        break;
-    case 2:
-        Console.WriteLine("Mardi");
-        break;
-    case 3:
-        Console.WriteLine("Mercredi");
-        break;
-    case 4:
-        Console.WriteLine("Jeudi");
-        break;
-    case 5:
-        Console.WriteLine("Vendredi");
-        break;
-    case 6:
-        Console.WriteLine("Samedi");
-        break;
-    case 7:
-        Console.WriteLine("Dimanche");
-        break;
-    default:
-        Console.WriteLine("Le chiffre est hors de l'intervalle");
-        break;
-}
+// Console.WriteLine("Entrez un chiffre entre 1 et 7:");
+// switch (Convert.ToInt32(Console.ReadLine()))
+// {
+//     case 1:
+//         Console.WriteLine("Lundi");
+//         break;
+//     case 2:
+//         Console.WriteLine("Mardi");
+//         break;
+//     case 3:
+//         Console.WriteLine("Mercredi");
+//         break;
+//     case 4:
+//         Console.WriteLine("Jeudi");
+//         break;
+//     case 5:
+//         Console.WriteLine("Vendredi");
+//         break;
+//     case 6:
+//         Console.WriteLine("Samedi");
+//         break;
+//     case 7:
+//         Console.WriteLine("Dimanche");
+//         break;
+//     default:
+//         Console.WriteLine("Le chiffre est hors de l'intervalle");
+//         break;
+//}
 
 //Exercice 8
 Console.WriteLine("Exercice 8");
 
 Console.WriteLine("Entrez le premier nombre: ");
-double nombre1 = Convert.ToInt32(Console.ReadLine());
+double nombre1 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Entrez le deuxième nombre: ");
-double nombre2 = Convert.ToInt32(Console.ReadLine());
+double nombre2 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Entrez l'opérateur: ");
 string op = Console.ReadLine();
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\benba\\OneDrive\\Desktop\\IFC\\CS\\HelloWorld\\HelloWorld.csproj": {}
+    "C:\\Users\\benba\\OneDrive\\Desktop\\IFC\\CS\\ExercicesBoucles\\ExercicesBoucles.csproj": {}
   },
   "projects": {
-    "C:\\Users\\benba\\OneDrive\\Desktop\\IFC\\CS\\HelloWorld\\HelloWorld.csproj": {
+    "C:\\Users\\benba\\OneDrive\\Desktop\\IFC\\CS\\ExercicesBoucles\\ExercicesBoucles.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\benba\\OneDrive\\Desktop\\IFC\\CS\\HelloWorld\\HelloWorld.csproj",
-        "projectName": "HelloWorld",
-        "projectPath": "C:\\Users\\benba\\OneDrive\\Desktop\\IFC\\CS\\HelloWorld\\HelloWorld.csproj",
+        "projectUniqueName": "C:\\Users\\benba\\OneDrive\\Desktop\\IFC\\CS\\ExercicesBoucles\\ExercicesBoucles.csproj",
+        "projectName": "ExercicesBoucles",
+        "projectPath": "C:\\Users\\benba\\OneDrive\\Desktop\\IFC\\CS\\ExercicesBoucles\\ExercicesBoucles.csproj",
         "packagesPath": "C:\\Users\\benba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\benba\\OneDrive\\Desktop\\IFC\\CS\\HelloWorld\\obj\\",
+        "outputPath": "C:\\Users\\benba\\OneDrive\\Desktop\\IFC\\CS\\ExercicesBoucles\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\benba\\AppData\\Roaming\\NuGet\\NuGet.Config"

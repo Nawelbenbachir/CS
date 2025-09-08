@@ -1,0 +1,15 @@
+C:\Users\benba\OneDrive\Desktop\IFC\CS\ExercicesBoucles\bin\Debug\net9.0\ExercicesBoucles.exe
+C:\Users\benba\OneDrive\Desktop\IFC\CS\ExercicesBoucles\bin\Debug\net9.0\ExercicesBoucles.deps.json
+C:\Users\benba\OneDrive\Desktop\IFC\CS\ExercicesBoucles\bin\Debug\net9.0\ExercicesBoucles.runtimeconfig.json
+C:\Users\benba\OneDrive\Desktop\IFC\CS\ExercicesBoucles\bin\Debug\net9.0\ExercicesBoucles.dll
+C:\Users\benba\OneDrive\Desktop\IFC\CS\ExercicesBoucles\bin\Debug\net9.0\ExercicesBoucles.pdb
+C:\Users\benba\OneDrive\Desktop\IFC\CS\ExercicesBoucles\obj\Debug\net9.0\ExercicesBoucles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benba\OneDrive\Desktop\IFC\CS\ExercicesBoucles\obj\Debug\net9.0\ExercicesBoucles.AssemblyInfoInputs.cache
+C:\Users\benba\OneDrive\Desktop\IFC\CS\ExercicesBoucles\obj\Debug\net9.0\ExercicesBoucles.AssemblyInfo.cs
+C:\Users\benba\OneDrive\Desktop\IFC\CS\ExercicesBoucles\obj\Debug\net9.0\ExercicesBoucles.csproj.CoreCompileInputs.cache
+C:\Users\benba\OneDrive\Desktop\IFC\CS\ExercicesBoucles\obj\Debug\net9.0\ExercicesBoucles.sourcelink.json
+C:\Users\benba\OneDrive\Desktop\IFC\CS\ExercicesBoucles\obj\Debug\net9.0\ExercicesBoucles.dll
+C:\Users\benba\OneDrive\Desktop\IFC\CS\ExercicesBoucles\obj\Debug\net9.0\refint\ExercicesBoucles.dll
+C:\Users\benba\OneDrive\Desktop\IFC\CS\ExercicesBoucles\obj\Debug\net9.0\ExercicesBoucles.pdb
+C:\Users\benba\OneDrive\Desktop\IFC\CS\ExercicesBoucles\obj\Debug\net9.0\ExercicesBoucles.genruntimeconfig.cache
+C:\Users\benba\OneDrive\Desktop\IFC\CS\ExercicesBoucles\obj\Debug\net9.0\ref\ExercicesBoucles.dll

@@ -44,3 +44,6 @@ foreach (string element in chaines)
     Console.WriteLine(elemnt);
 }
 Console.WriteLine("boucle foreach chaines terminée");
+
+
+
