@@ -61,6 +61,6 @@ int[] nombres = { 3, 7, 2, 9, 4 };
 int isomme = 0;
 foreach (int elements in nombres)
 {
-    isomme = isomme + i;
+    isomme = isomme + elements;
 }
 Console.WriteLine(isomme);
