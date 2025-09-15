@@ -1,7 +1,7 @@
 class Titulaire
 {
-    private int _id;
-    public int Id
+    private string _id;
+    public string Id
     {
 
         get { return _id; }
@@ -75,14 +75,14 @@ class Titulaire
 
     public Titulaire(string nom, string prenom, string adresse, string codepostal, string ville, string tel, string email)
     {
-        //Id=id;
-        Nom = nom;
-        Prenom=prenom;
-        Adresse=adresse;
-        CodePostal=codepostal;
-        Ville=ville;
-        Tel=tel;
-        Email=email;
+        _id = Guid.NewGuid().ToString();
+        _nom = nom;
+        _prenom=prenom;
+        _adresse=adresse;
+        _codepostal=codepostal;
+        _ville=ville;
+        _tel=tel;
+        _email=email;
     }
    
     public void Afficher()
