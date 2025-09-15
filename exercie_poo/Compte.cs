@@ -12,6 +12,7 @@
             set { _solde = value; }
         }
     public Titulaire? Titulaire { get; set; }
+    
     public void Afficher()
     {
         Console.WriteLine($"Solde:{this.Solde}");

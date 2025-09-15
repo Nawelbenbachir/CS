@@ -1,25 +1,6 @@
 class Titulaire
 {
-    private string _nom = "";
-
-    public string Nom
-    {
-
-        get { return _nom; }
-
-        set { _nom = value; }
-    }
-    private string _prenom = "";
-
-    public string Prenom
-    {
-
-        get { return _prenom; }
-
-        set { _prenom = value; }
-    }
     private int _id;
-
     public int Id
     {
 
@@ -27,8 +8,27 @@ class Titulaire
 
         set { _id = value; }
     }
-    private string _adresse = "";
 
+    private string _nom = "";
+    public string Nom
+    {
+        get { return _nom; }
+
+        set { _nom = value; }
+    }
+
+    private string _prenom = "";
+    public string Prenom
+    {
+
+        get { return _prenom; }
+
+        set { _prenom = value; }
+    }
+
+
+
+    private string _adresse = "";
     public string Adresse
     {
 
@@ -38,7 +38,6 @@ class Titulaire
     }
 
     private string _codepostal = "";
-
     public string CodePostal
     {
 
@@ -48,7 +47,6 @@ class Titulaire
     }
 
     private string _ville = "";
-
     public string Ville
     {
 
@@ -56,9 +54,9 @@ class Titulaire
 
         set { _ville = value; }
     }
-    private string _tel = "";
 
-    public string tel
+    private string _tel = "";
+    public string Tel
     {
 
         get { return _tel; }
@@ -67,7 +65,6 @@ class Titulaire
     }
 
     private string _email = "";
-
     public string Email
     {
 
@@ -75,7 +72,19 @@ class Titulaire
 
         set { _email = value; }
     }
-    
+
+    public Titulaire(string nom, string prenom, string adresse, string codepostal, string ville, string tel, string email)
+    {
+        //Id=id;
+        Nom = nom;
+        Prenom=prenom;
+        Adresse=adresse;
+        CodePostal=codepostal;
+        Ville=ville;
+        Tel=tel;
+        Email=email;
+    }
+   
     public void Afficher()
     {
         Console.WriteLine($"Id: {Id}");
@@ -84,7 +93,7 @@ class Titulaire
         Console.WriteLine($"Adresse: {Adresse}");
         Console.WriteLine($"Code Postal: {CodePostal}");
         Console.WriteLine($"Ville: {Ville}");
-        Console.WriteLine($"Téléphone: {tel}");
+        Console.WriteLine($"Téléphone: {Tel}");
         Console.WriteLine($"Email: {Email}");
     }
     
