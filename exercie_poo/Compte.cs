@@ -16,7 +16,7 @@
     public void Afficher()
     {
         Console.WriteLine($"Solde:{this.Solde}");
-        Console.WriteLine($"Titulaire: {Titulaire?.Prenom} {Titulaire?.Nom}");
+       // Console.WriteLine($"Titulaire: {Titulaire?.Prenom} {Titulaire?.Nom}");
     }
     }
 
