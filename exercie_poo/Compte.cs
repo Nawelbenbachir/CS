@@ -1,9 +1,8 @@
-namespace ExerciceCompte
-{
+
     class Compte
     {
         //Variable interne pour stocker le solde
-        private decimal _solde;
+        private decimal _solde=0;
         //Propriété publique pour manipuler le solde
         public decimal Solde
         {
@@ -17,4 +16,3 @@ namespace ExerciceCompte
             Console.WriteLine($"Solde:{this.Solde}");
         }
     }
-}
