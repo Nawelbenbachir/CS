@@ -11,12 +11,16 @@
             //Setter
             set { _solde = value; }
         }
-    public Titulaire? Titulaire { get; set; }
-    
+    private Titulaire? _titulaire;
+    public Titulaire? Titulaire {
+        get { return _titulaire; }
+        set { _titulaire = value; }
+    }
+
     public void Afficher()
     {
         Console.WriteLine($"Solde:{this.Solde}");
-       // Console.WriteLine($"Titulaire: {Titulaire?.Prenom} {Titulaire?.Nom}");
+        Console.WriteLine($"Titulaire: {Titulaire?.Prenom} {Titulaire?.Nom}");
     }
     }
 
