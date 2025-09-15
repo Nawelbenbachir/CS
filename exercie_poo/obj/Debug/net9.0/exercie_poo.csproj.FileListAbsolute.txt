@@ -1,0 +1,15 @@
+C:\Users\benba\OneDrive\Desktop\IFC\CS\exercie_poo\bin\Debug\net9.0\exercie_poo.exe
+C:\Users\benba\OneDrive\Desktop\IFC\CS\exercie_poo\bin\Debug\net9.0\exercie_poo.deps.json
+C:\Users\benba\OneDrive\Desktop\IFC\CS\exercie_poo\bin\Debug\net9.0\exercie_poo.runtimeconfig.json
+C:\Users\benba\OneDrive\Desktop\IFC\CS\exercie_poo\bin\Debug\net9.0\exercie_poo.dll
+C:\Users\benba\OneDrive\Desktop\IFC\CS\exercie_poo\bin\Debug\net9.0\exercie_poo.pdb
+C:\Users\benba\OneDrive\Desktop\IFC\CS\exercie_poo\obj\Debug\net9.0\exercie_poo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benba\OneDrive\Desktop\IFC\CS\exercie_poo\obj\Debug\net9.0\exercie_poo.AssemblyInfoInputs.cache
+C:\Users\benba\OneDrive\Desktop\IFC\CS\exercie_poo\obj\Debug\net9.0\exercie_poo.AssemblyInfo.cs
+C:\Users\benba\OneDrive\Desktop\IFC\CS\exercie_poo\obj\Debug\net9.0\exercie_poo.csproj.CoreCompileInputs.cache
+C:\Users\benba\OneDrive\Desktop\IFC\CS\exercie_poo\obj\Debug\net9.0\exercie_poo.sourcelink.json
+C:\Users\benba\OneDrive\Desktop\IFC\CS\exercie_poo\obj\Debug\net9.0\exercie_poo.dll
+C:\Users\benba\OneDrive\Desktop\IFC\CS\exercie_poo\obj\Debug\net9.0\refint\exercie_poo.dll
+C:\Users\benba\OneDrive\Desktop\IFC\CS\exercie_poo\obj\Debug\net9.0\exercie_poo.pdb
+C:\Users\benba\OneDrive\Desktop\IFC\CS\exercie_poo\obj\Debug\net9.0\exercie_poo.genruntimeconfig.cache
+C:\Users\benba\OneDrive\Desktop\IFC\CS\exercie_poo\obj\Debug\net9.0\ref\exercie_poo.dll
