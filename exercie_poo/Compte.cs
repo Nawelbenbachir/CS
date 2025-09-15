@@ -37,7 +37,7 @@ class Compte
             throw new ArgumentException("Le montant doit être positif");
         }
         _solde += montant;
-        Console.WriteLine($"Crédit de {montant} effectué. Nouveau solde: {_solde}");
+        Console.WriteLine($" Nouveau solde: {_solde}");
     }
 
     public void Debiter(decimal montant)
@@ -51,7 +51,7 @@ class Compte
             throw new InvalidOperationException("Fonds insuffisants");
         }
         _solde -= montant;
-        Console.WriteLine($"Débit de {montant} effectué. Nouveau solde: {_solde}");
+        Console.WriteLine($" Nouveau solde: {_solde}");
     }
     public void Afficher()
     {
