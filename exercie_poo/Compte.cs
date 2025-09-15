@@ -1,0 +1,7 @@
+namespace ExerciceCompte
+{
+    class Compte
+    {
+        
+    }
+}
