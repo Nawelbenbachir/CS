@@ -66,7 +66,7 @@ class Titulaire
         set { _tel = value; }
     }
 
-     private string _email = "";
+    private string _email = "";
 
     public string Email
     {
@@ -74,6 +74,18 @@ class Titulaire
         get { return _email; }
 
         set { _email = value; }
+    }
+    
+    public void Afficher()
+    {
+        Console.WriteLine($"Id: {Id}");
+        Console.WriteLine($"Nom: {Nom}");
+        Console.WriteLine($"Prénom: {Prenom}");
+        Console.WriteLine($"Adresse: {Adresse}");
+        Console.WriteLine($"Code Postal: {CodePostal}");
+        Console.WriteLine($"Ville: {Ville}");
+        Console.WriteLine($"Téléphone: {tel}");
+        Console.WriteLine($"Email: {Email}");
     }
     
 }
