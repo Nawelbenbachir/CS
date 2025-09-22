@@ -1,6 +1,6 @@
-﻿class Heritage
+﻿public class Heritage
 {
-    private static void Main(string[] args)
+    public static void Main(string[] args)
     {
 
     }
